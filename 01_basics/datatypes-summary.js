@@ -36,5 +36,35 @@ const myfunction= function(){
 
 console.log(typeof bigNumber);
 
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+// Stack Memeory, heap Memeory
+
+// Stack(Primitive), Heap (Non-Primitive)
+
+  let myName = "Purab"
+  let anotherName = myName
+  anotherName = "Srijani"
+
+  console.log(myName);
+  console.log(anotherName);
+
+
+//
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl",
+}
+
+let userTwo = userOne
+
+userTwo.email = "purab@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+  
+  
 
