@@ -44,9 +44,27 @@ const obj3 = {...obj1, ...obj2, ...obj4} //most prefered way
 // console.log(obj3);
 
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
 
 
+const course = {
+    coursename: "javascript",
+    price: "999",
+    courseInstructor: "purab"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+// console.log(instructor);
+
+// ++++++++++++++++++++++++++++++++ API +++++++++++++++++++++++++++++++
+// JSON
+// {
+//     "name": "Purab",
+//     "coursename": "Javascript",
+//     "price": "999"
+// }
