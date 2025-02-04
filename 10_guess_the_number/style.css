@@ -1,0 +1,92 @@
+/* Style for the entire body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+/* Container styling */
+#container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Heading styling */
+#heading h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+/* Subheading styling */
+#subheading p {
+    margin: 5px 0;
+    color: #7f8c8d;
+}
+
+/* Form styling */
+.form {
+    margin-top: 20px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.guessField {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+}
+
+.subt {
+    padding: 10px 20px;
+    background-color: #db3434;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #55db34;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.subt:hover {
+    background-color: #2980b9;
+}
+
+/* Results section styling */
+.resultsParas {
+    margin-top: 20px;
+}
+
+.resultsParas p {
+    margin: 5px 0;
+}
+
+.lowOrhi {
+    font-weight: bold;
+    color: #e74c3c;
+}
