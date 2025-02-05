@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Purab and Code</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <script>
+   
+       const sayHi = (stri) => {
+        console.log(stri, Date.now());
+       }
+       let intervalid
+       document.querySelector('#start').addEventListener('click', ()=>{
+        console.log("started");
+        
+        intervalid =setInterval(sayHi, 1000, "hiii")
+       })
+
+       document.querySelector('#stop').addEventListener("click", () => {
+        clearInterval(intervalid)
+        console.log("Stopped");
+        
+       })
+        
+
+    </script>
+</body>
+</html>
